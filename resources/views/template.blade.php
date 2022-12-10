@@ -20,6 +20,7 @@
     <!-- Custom styles for this template-->
     <link href="assets/css/sb-admin-2.min.css" rel="stylesheet">
 
+    @stack('css')
 </head>
 
 <body id="page-top">
@@ -120,7 +121,7 @@
                     <footer class="sticky-footer bg-white">
                     <div class="container my-auto">
                         <div class="copyright text-center my-auto">
-                            <span>Copyright &copy; SIMINTAS</span>
+                            <span>Copyright &copy; SIMINTAS 2022</span>
                         </div>
                     </div>
                     </footer>
@@ -169,10 +170,12 @@
         <!-- Page level plugins -->
         <script src="assets/vendor/chart.js/Chart.min.js"></script>
                     
-        <!-- Page level custom scripts -->
+        <!-- Page level custom scripts 
         <script src="assets/js/demo/chart-area-demo.js"></script>
         <script src="assets/js/demo/chart-pie-demo.js"></script>
-                    
+                    -->
+	
+	@stack('scripts')
     </body>
                     
 </html>

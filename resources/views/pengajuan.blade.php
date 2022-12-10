@@ -21,7 +21,7 @@
                                 <th>Aksi</th>
                             </tr>
                         </thead>
-                        <tfoot>
+                        {{-- <tfoot>
                             <tr>
                                 <th>No</th>
                                 <th>Nama</th>
@@ -30,7 +30,7 @@
                                 <th>Surat Pengajuan</th>
                                 <th>Aksi</th>
                             </tr>
-                        </tfoot>
+                        </tfoot> --}}
                         <tbody>
                             <tr>
                                 <td>1</td>
@@ -204,3 +204,16 @@
     </div>
     <!-- /.container-fluid -->
 @endsection
+
+@push("css")
+<link href="//cdn.datatables.net/1.13.1/css/jquery.dataTables.min.css" rel="stylesheet">
+@endpush
+
+@push("scripts")
+<script src="//cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
+<script>
+$(function(){
+	$("#dataTable").dataTable();
+});
+</script>
+@endpush

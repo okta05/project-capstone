@@ -46,7 +46,7 @@
                                     <span class="icon text-gray-600">
                                         <i class="fas fa-arrow-up"></i>
                                     </span>
-                                    <span class="text">Upload Gambar</span>
+                                    <span class="text">Upload File</span>
                                 </a>
                             </div>
                             <a href="{{ url('tempat') }}" class="btn btn-danger">Simpan</a>

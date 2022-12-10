@@ -15,20 +15,34 @@
 
                 <div class="card">
                    <div class="box">
-                        <span class="text-dark font-weight-bold mb-4">
-                            <i class="fas fa-atom fa-2x"></i>
-                        Gesibu Blambangan sudah selesai digunakan!
-                        <p class="text-gray-600">07 Desember 2022</p>
+                    <span class="text-dark font-weight-bold d-flex">
+                        <i class="m-2 fas fa-atom fa-2x"></i>
+                        <div>
+                        Gesibu Blambangan sudah selesai digunakan!<br />
+                        <span class="text-gray-600">07 Desember 2022</span>
+                        </div>
+                    </span>
+                    </div>
+                    <hr>
+                    <div class="box">
+                        <span class="text-dark font-weight-bold d-flex">
+                            <i class="m-2 fas fa-atom fa-2x"></i>
+                            <div>
+                                Sinta, mengirim surat pengajuan Dormitory Sritanjung!<br />
+                            <span class="text-gray-600">07 Desember 2022</span>
+                            </div>
                         </span>
                     </div>
                     <hr>
                     <div class="box">
-                        <span class="text-dark font-weight-bold mb-4">
-                            <i class="fas fa-atom fa-2x"></i>
-                        Sinta, mengirim surat pengajuan Dormitory Sritanjung!!
-                        <p class="text-gray-600">07 Desember 2022</p>
+                        <span class="text-dark font-weight-bold d-flex">
+                            <i class="m-2 fas fa-atom fa-2x"></i>
+                            <div>
+                                Pelinggihan sudah selesai digunakan!<br />
+                            <span class="text-gray-600">05 Desember 2022</span>
+                            </div>
                         </span>
-                    </div> 
+                    </div>
                 </div>
                 
 
